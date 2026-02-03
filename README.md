@@ -48,7 +48,11 @@ This tool can be used for:
 
 ## 📸 Screenshots
 
-(Add screenshots here)
+<img width="960" height="540" alt="1" src="https://github.com/user-attachments/assets/c2e2034a-c49a-4620-8d0a-487bb67eb638" />
+<img width="960" height="540" alt="2" src="https://github.com/user-attachments/assets/eff695a5-49fb-4a77-a90b-f595ee98fd6e" />
+<img width="960" height="540" alt="4" src="https://github.com/user-attachments/assets/f11fbbf6-ec4c-45b0-8d4d-b6e5ca61495c" />
+<img width="960" height="540" alt="5" src="https://github.com/user-attachments/assets/654bab07-386d-46a3-99b4-727604dff221" />
+
 
 ---
 
