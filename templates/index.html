@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Resume Builder</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="card">
+
+    <h2>AI Resume Builder 🚀</h2>
+
+    <form method="POST" onsubmit="showLoading()">
+
+        <input name="name" placeholder="Full Name" required>
+        <input name="skills" placeholder="Skills (Python, AI, SQL)" required>
+        <textarea name="experience" placeholder="Experience" required></textarea>
+
+        <button type="submit">Generate Resume ✨</button>
+    </form>
+
+</div>
+
+<!-- Loading -->
+<div id="loading" class="loading">
+    <div class="spinner"></div>
+    <p>Generating resume with AI...</p>
+</div>
+
+<script>
+function showLoading(){
+    document.getElementById("loading").style.display = "flex";
+}
+</script>
+
+</body>
+</html>

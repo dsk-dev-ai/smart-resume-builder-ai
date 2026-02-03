@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Preview</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="card">
+
+    <a href="/" class="back-btn">⬅ Back</a>
+
+    <h3>Resume Preview</h3>
+
+    <pre class="result">{{ text }}</pre>
+
+    <a href="/download"><button>Download PDF</button></a>
+
+</div>
+
+</body>
+</html>
