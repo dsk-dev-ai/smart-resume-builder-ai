@@ -2,3 +2,10 @@ venv/
 generated/
 __pycache__/
 *.db
+*.png
+*.jpg
+*.jpeg
+*.PNG
+*.pdf
+examples result get/
+screenshots/
