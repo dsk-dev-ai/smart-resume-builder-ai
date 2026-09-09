@@ -69,6 +69,17 @@ python app.py
 Open browser
 http://127.0.0.1:5000
 
+## 🧪 Tests
+
+```bash
+pip install -r requirements-dev.txt
+python -m pytest -q
+```
+
+Tests cover the home route (GET/POST), required-field validation,
+resume preview generation, PDF download (found + missing), and the
+line-wrapping helper. CI runs the suite on every push.
+
 🧠 What I Learned
 
 AI prompt engineering
